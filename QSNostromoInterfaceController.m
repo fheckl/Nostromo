@@ -49,7 +49,7 @@
     [[self window] setMovableByWindowBackground:NO];
     
     NSArray *theControls = [NSArray arrayWithObjects:dSelector, aSelector, iSelector, nil];
-    for(QSSearchObjectView *theControl in theControls) {
+    for(QSNostromoObjectView *theControl in theControls) {
         [theControl setCell:[QSNostromoCell cellWithText]];
         QSNostromoCell *theCell = [theControl cell];
         [theCell setAlignment:NSLeftTextAlignment];

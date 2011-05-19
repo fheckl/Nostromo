@@ -73,18 +73,18 @@
     // name string
     [nameAttributes release];
     nameAttributes = [[NSDictionary alloc] initWithObjectsAndKeys:
-                        [NSFont fontWithName:[[self font] fontName] size:36.0], NSFontAttributeName,
-                        mainColor, NSForegroundColorAttributeName,
-                        style, NSParagraphStyleAttributeName,
-                        nil];
+        [NSFont fontWithName:[[self font] fontName] size:36.0], NSFontAttributeName,
+        mainColor, NSForegroundColorAttributeName,
+        style, NSParagraphStyleAttributeName,
+        nil];
     
     // details string
     [detailsAttributes release];
     detailsAttributes = [[NSDictionary alloc] initWithObjectsAndKeys:
-                            [NSFont fontWithName:[[self font] fontName] size:20.0], NSFontAttributeName,
-                            fadedColor, NSForegroundColorAttributeName,
-                            style, NSParagraphStyleAttributeName,
-                            nil];
+        [NSFont fontWithName:[[self font] fontName] size:20.0], NSFontAttributeName,
+        fadedColor, NSForegroundColorAttributeName,
+        style, NSParagraphStyleAttributeName,
+        nil];
 }
 
 @end

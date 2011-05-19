@@ -8,6 +8,7 @@
 #import <Cocoa/Cocoa.h>
 #import <QSFoundation/QSFoundation.h>
 #import "QSNostromoCell.h"
+#import "QSNostromoObjectView.h"
 #import <QSCore/QSCore.h>
 #import <QSInterface/QSResizingInterfaceController.h>
 

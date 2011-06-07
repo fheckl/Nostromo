@@ -21,7 +21,6 @@
     
     NSColor *fillColor;
     NSColor *strokeColor;
-    NSLog(@"drawWithFrame called");
     
     BOOL dropTarget = ([self isHighlighted] && ([self highlightsBy] & NSChangeBackgroundCellMask) && ![self isBezeled]);
     
